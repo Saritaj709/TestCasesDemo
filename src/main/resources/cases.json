@@ -1,0 +1,71 @@
+{
+	"demo": {
+		"request": {
+			"url": "/demo",
+			"headers": {
+				
+			},
+			"method": "GET"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				"name": "Sarita"
+			},
+			"body": {
+				"message": "Hello World",
+				"status": 200
+			}
+		}
+	},
+	"demo2": {
+		"request": {
+			"url": "/add",
+			"headers": {
+				"thirdNumber": [
+					11
+				],
+				"result": [
+					"Total sum"
+				]
+			},
+			"body": {
+				"num1": 10,
+				"num2": 12
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"message": "Total sum",
+				"status": 33
+			}
+		}
+	},
+	"mydemo": {
+		"request": {
+			"url": "/mesg",
+			"headers": {
+				
+			},
+			"body": {
+				
+			},
+			"method": "GET"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				
+			}
+		},
+		"responseMessage": "my string"
+	}
+}
